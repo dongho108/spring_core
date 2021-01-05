@@ -5,7 +5,9 @@ public class MemberServiceImlp implements MemberService{
     private final MemberRepository memberRepository;
 
     public MemberServiceImlp(MemberRepository memberRepository) {
+
         this.memberRepository = memberRepository;
+
     }
 
     @Override
