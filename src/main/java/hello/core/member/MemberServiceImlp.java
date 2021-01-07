@@ -21,4 +21,9 @@ public class MemberServiceImlp implements MemberService{
         return memberRepository.findById((memberId));
     }
 
+    //test
+    public MemberRepository getMemberRepository() {
+        return memberRepository;
+    }
+
 }
